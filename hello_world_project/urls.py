@@ -22,5 +22,5 @@ urlpatterns = [
     #path('', views.index_new, name='index_new'),
     path('',include('app_greet.urls')),
     path('app_greet/',include('app_greet.urls')),
-    path('/admin', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
